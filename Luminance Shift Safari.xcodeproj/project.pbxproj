@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64A0ACF02A98170B00D30978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0ACEF2A98170B00D30978 /* AppDelegate.swift */; };
+		64A0ACF22A98170B00D30978 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0ACF12A98170B00D30978 /* SceneDelegate.swift */; };
+		64A0ACF52A98170B00D30978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACF32A98170B00D30978 /* LaunchScreen.storyboard */; };
+		64A0ACF82A98170B00D30978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACF62A98170B00D30978 /* Main.storyboard */; };
+		64A0AD012A98170B00D30978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0AD002A98170B00D30978 /* AppDelegate.swift */; };
+		64A0AD042A98170B00D30978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A0AD022A98170B00D30978 /* Main.storyboard */; };
+		64A0AD0B2A98170B00D30978 /* Luminance Shift Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 64A0AD0A2A98170B00D30978 /* Luminance Shift Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64A0AD152A98170B00D30978 /* Luminance Shift Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 64A0AD142A98170B00D30978 /* Luminance Shift Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64A0AD1B2A98170B00D30978 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACD62A98170A00D30978 /* Main.html */; };
+		64A0AD1C2A98170B00D30978 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACD62A98170A00D30978 /* Main.html */; };
+		64A0AD1D2A98170B00D30978 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACD82A98170A00D30978 /* Icon.png */; };
+		64A0AD1E2A98170B00D30978 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACD82A98170A00D30978 /* Icon.png */; };
+		64A0AD1F2A98170B00D30978 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACD92A98170A00D30978 /* Style.css */; };
+		64A0AD202A98170B00D30978 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACD92A98170A00D30978 /* Style.css */; };
+		64A0AD212A98170B00D30978 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACDA2A98170A00D30978 /* Script.js */; };
+		64A0AD222A98170B00D30978 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACDA2A98170A00D30978 /* Script.js */; };
+		64A0AD232A98170B00D30978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0ACDB2A98170A00D30978 /* ViewController.swift */; };
+		64A0AD242A98170B00D30978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0ACDB2A98170A00D30978 /* ViewController.swift */; };
+		64A0AD252A98170B00D30978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACDC2A98170B00D30978 /* Assets.xcassets */; };
+		64A0AD262A98170B00D30978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACDC2A98170B00D30978 /* Assets.xcassets */; };
+		64A0AD272A98170B00D30978 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0ACDE2A98170B00D30978 /* SafariWebExtensionHandler.swift */; };
+		64A0AD282A98170B00D30978 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0ACDE2A98170B00D30978 /* SafariWebExtensionHandler.swift */; };
+		64A0AD292A98170B00D30978 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE02A98170B00D30978 /* _locales */; };
+		64A0AD2A2A98170B00D30978 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE02A98170B00D30978 /* _locales */; };
+		64A0AD2B2A98170B00D30978 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE12A98170B00D30978 /* images */; };
+		64A0AD2C2A98170B00D30978 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE12A98170B00D30978 /* images */; };
+		64A0AD2D2A98170B00D30978 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE22A98170B00D30978 /* manifest.json */; };
+		64A0AD2E2A98170B00D30978 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE22A98170B00D30978 /* manifest.json */; };
+		64A0AD2F2A98170B00D30978 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE32A98170B00D30978 /* background.js */; };
+		64A0AD302A98170B00D30978 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE32A98170B00D30978 /* background.js */; };
+		64A0AD312A98170B00D30978 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE42A98170B00D30978 /* content.js */; };
+		64A0AD322A98170B00D30978 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE42A98170B00D30978 /* content.js */; };
+		64A0AD332A98170B00D30978 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE52A98170B00D30978 /* popup.html */; };
+		64A0AD342A98170B00D30978 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE52A98170B00D30978 /* popup.html */; };
+		64A0AD352A98170B00D30978 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE62A98170B00D30978 /* popup.css */; };
+		64A0AD362A98170B00D30978 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE62A98170B00D30978 /* popup.css */; };
+		64A0AD372A98170B00D30978 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE72A98170B00D30978 /* popup.js */; };
+		64A0AD382A98170B00D30978 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 64A0ACE72A98170B00D30978 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64A0AD0C2A98170B00D30978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A0ACD02A98170A00D30978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A0AD092A98170B00D30978;
+			remoteInfo = "Luminance Shift Safari Extension (iOS)";
+		};
+		64A0AD162A98170B00D30978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A0ACD02A98170A00D30978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A0AD132A98170B00D30978;
+			remoteInfo = "Luminance Shift Safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64A0AD3E2A98170B00D30978 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				64A0AD0B2A98170B00D30978 /* Luminance Shift Safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0AD452A98170B00D30978 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				64A0AD152A98170B00D30978 /* Luminance Shift Safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		64A0ACD72A98170A00D30978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		64A0ACD82A98170A00D30978 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		64A0ACD92A98170A00D30978 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		64A0ACDA2A98170A00D30978 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		64A0ACDB2A98170A00D30978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64A0ACDC2A98170B00D30978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64A0ACDE2A98170B00D30978 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		64A0ACE02A98170B00D30978 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		64A0ACE12A98170B00D30978 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		64A0ACE22A98170B00D30978 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		64A0ACE32A98170B00D30978 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		64A0ACE42A98170B00D30978 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		64A0ACE52A98170B00D30978 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		64A0ACE62A98170B00D30978 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		64A0ACE72A98170B00D30978 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		64A0ACEC2A98170B00D30978 /* Luminance Shift Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luminance Shift Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A0ACEF2A98170B00D30978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64A0ACF12A98170B00D30978 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64A0ACF42A98170B00D30978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64A0ACF72A98170B00D30978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64A0ACF92A98170B00D30978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A0ACFE2A98170B00D30978 /* Luminance Shift Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luminance Shift Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A0AD002A98170B00D30978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64A0AD032A98170B00D30978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64A0AD052A98170B00D30978 /* Luminance Shift Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Luminance Shift Safari.entitlements"; sourceTree = "<group>"; };
+		64A0AD0A2A98170B00D30978 /* Luminance Shift Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Luminance Shift Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A0AD0F2A98170B00D30978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A0AD142A98170B00D30978 /* Luminance Shift Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Luminance Shift Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A0AD192A98170B00D30978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A0AD1A2A98170B00D30978 /* Luminance Shift Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Luminance Shift Safari.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A0ACE92A98170B00D30978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0ACFB2A98170B00D30978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0AD072A98170B00D30978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0AD112A98170B00D30978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A0ACCF2A98170A00D30978 = {
+			isa = PBXGroup;
+			children = (
+				64A0ACD42A98170A00D30978 /* Shared (App) */,
+				64A0ACDD2A98170B00D30978 /* Shared (Extension) */,
+				64A0ACEE2A98170B00D30978 /* iOS (App) */,
+				64A0ACFF2A98170B00D30978 /* macOS (App) */,
+				64A0AD0E2A98170B00D30978 /* iOS (Extension) */,
+				64A0AD182A98170B00D30978 /* macOS (Extension) */,
+				64A0ACED2A98170B00D30978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64A0ACD42A98170A00D30978 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				64A0ACDB2A98170A00D30978 /* ViewController.swift */,
+				64A0ACDC2A98170B00D30978 /* Assets.xcassets */,
+				64A0ACD52A98170A00D30978 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		64A0ACD52A98170A00D30978 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64A0ACD62A98170A00D30978 /* Main.html */,
+				64A0ACD82A98170A00D30978 /* Icon.png */,
+				64A0ACD92A98170A00D30978 /* Style.css */,
+				64A0ACDA2A98170A00D30978 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64A0ACDD2A98170B00D30978 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				64A0ACDE2A98170B00D30978 /* SafariWebExtensionHandler.swift */,
+				64A0ACDF2A98170B00D30978 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		64A0ACDF2A98170B00D30978 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64A0ACE02A98170B00D30978 /* _locales */,
+				64A0ACE12A98170B00D30978 /* images */,
+				64A0ACE22A98170B00D30978 /* manifest.json */,
+				64A0ACE32A98170B00D30978 /* background.js */,
+				64A0ACE42A98170B00D30978 /* content.js */,
+				64A0ACE52A98170B00D30978 /* popup.html */,
+				64A0ACE62A98170B00D30978 /* popup.css */,
+				64A0ACE72A98170B00D30978 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64A0ACED2A98170B00D30978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A0ACEC2A98170B00D30978 /* Luminance Shift Safari.app */,
+				64A0ACFE2A98170B00D30978 /* Luminance Shift Safari.app */,
+				64A0AD0A2A98170B00D30978 /* Luminance Shift Safari Extension.appex */,
+				64A0AD142A98170B00D30978 /* Luminance Shift Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A0ACEE2A98170B00D30978 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				64A0ACEF2A98170B00D30978 /* AppDelegate.swift */,
+				64A0ACF12A98170B00D30978 /* SceneDelegate.swift */,
+				64A0ACF32A98170B00D30978 /* LaunchScreen.storyboard */,
+				64A0ACF62A98170B00D30978 /* Main.storyboard */,
+				64A0ACF92A98170B00D30978 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		64A0ACFF2A98170B00D30978 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				64A0AD002A98170B00D30978 /* AppDelegate.swift */,
+				64A0AD022A98170B00D30978 /* Main.storyboard */,
+				64A0AD052A98170B00D30978 /* Luminance Shift Safari.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		64A0AD0E2A98170B00D30978 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				64A0AD0F2A98170B00D30978 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		64A0AD182A98170B00D30978 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				64A0AD192A98170B00D30978 /* Info.plist */,
+				64A0AD1A2A98170B00D30978 /* Luminance Shift Safari.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64A0ACEB2A98170B00D30978 /* Luminance Shift Safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A0AD3F2A98170B00D30978 /* Build configuration list for PBXNativeTarget "Luminance Shift Safari (iOS)" */;
+			buildPhases = (
+				64A0ACE82A98170B00D30978 /* Sources */,
+				64A0ACE92A98170B00D30978 /* Frameworks */,
+				64A0ACEA2A98170B00D30978 /* Resources */,
+				64A0AD3E2A98170B00D30978 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A0AD0D2A98170B00D30978 /* PBXTargetDependency */,
+			);
+			name = "Luminance Shift Safari (iOS)";
+			productName = "Luminance Shift Safari (iOS)";
+			productReference = 64A0ACEC2A98170B00D30978 /* Luminance Shift Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64A0ACFD2A98170B00D30978 /* Luminance Shift Safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A0AD462A98170B00D30978 /* Build configuration list for PBXNativeTarget "Luminance Shift Safari (macOS)" */;
+			buildPhases = (
+				64A0ACFA2A98170B00D30978 /* Sources */,
+				64A0ACFB2A98170B00D30978 /* Frameworks */,
+				64A0ACFC2A98170B00D30978 /* Resources */,
+				64A0AD452A98170B00D30978 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A0AD172A98170B00D30978 /* PBXTargetDependency */,
+			);
+			name = "Luminance Shift Safari (macOS)";
+			productName = "Luminance Shift Safari (macOS)";
+			productReference = 64A0ACFE2A98170B00D30978 /* Luminance Shift Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64A0AD092A98170B00D30978 /* Luminance Shift Safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A0AD3B2A98170B00D30978 /* Build configuration list for PBXNativeTarget "Luminance Shift Safari Extension (iOS)" */;
+			buildPhases = (
+				64A0AD062A98170B00D30978 /* Sources */,
+				64A0AD072A98170B00D30978 /* Frameworks */,
+				64A0AD082A98170B00D30978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Luminance Shift Safari Extension (iOS)";
+			productName = "Luminance Shift Safari Extension (iOS)";
+			productReference = 64A0AD0A2A98170B00D30978 /* Luminance Shift Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		64A0AD132A98170B00D30978 /* Luminance Shift Safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A0AD422A98170B00D30978 /* Build configuration list for PBXNativeTarget "Luminance Shift Safari Extension (macOS)" */;
+			buildPhases = (
+				64A0AD102A98170B00D30978 /* Sources */,
+				64A0AD112A98170B00D30978 /* Frameworks */,
+				64A0AD122A98170B00D30978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Luminance Shift Safari Extension (macOS)";
+			productName = "Luminance Shift Safari Extension (macOS)";
+			productReference = 64A0AD142A98170B00D30978 /* Luminance Shift Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64A0ACD02A98170A00D30978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					64A0ACEB2A98170B00D30978 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					64A0ACFD2A98170B00D30978 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					64A0AD092A98170B00D30978 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					64A0AD132A98170B00D30978 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 64A0ACD32A98170A00D30978 /* Build configuration list for PBXProject "Luminance Shift Safari" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64A0ACCF2A98170A00D30978;
+			productRefGroup = 64A0ACED2A98170B00D30978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A0ACEB2A98170B00D30978 /* Luminance Shift Safari (iOS) */,
+				64A0ACFD2A98170B00D30978 /* Luminance Shift Safari (macOS) */,
+				64A0AD092A98170B00D30978 /* Luminance Shift Safari Extension (iOS) */,
+				64A0AD132A98170B00D30978 /* Luminance Shift Safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64A0ACEA2A98170B00D30978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0AD1D2A98170B00D30978 /* Icon.png in Resources */,
+				64A0ACF52A98170B00D30978 /* LaunchScreen.storyboard in Resources */,
+				64A0AD1B2A98170B00D30978 /* Main.html in Resources */,
+				64A0AD212A98170B00D30978 /* Script.js in Resources */,
+				64A0AD252A98170B00D30978 /* Assets.xcassets in Resources */,
+				64A0ACF82A98170B00D30978 /* Main.storyboard in Resources */,
+				64A0AD1F2A98170B00D30978 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0ACFC2A98170B00D30978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0AD1E2A98170B00D30978 /* Icon.png in Resources */,
+				64A0AD202A98170B00D30978 /* Style.css in Resources */,
+				64A0AD042A98170B00D30978 /* Main.storyboard in Resources */,
+				64A0AD222A98170B00D30978 /* Script.js in Resources */,
+				64A0AD262A98170B00D30978 /* Assets.xcassets in Resources */,
+				64A0AD1C2A98170B00D30978 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0AD082A98170B00D30978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0AD2F2A98170B00D30978 /* background.js in Resources */,
+				64A0AD352A98170B00D30978 /* popup.css in Resources */,
+				64A0AD332A98170B00D30978 /* popup.html in Resources */,
+				64A0AD2B2A98170B00D30978 /* images in Resources */,
+				64A0AD2D2A98170B00D30978 /* manifest.json in Resources */,
+				64A0AD292A98170B00D30978 /* _locales in Resources */,
+				64A0AD312A98170B00D30978 /* content.js in Resources */,
+				64A0AD372A98170B00D30978 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0AD122A98170B00D30978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0AD302A98170B00D30978 /* background.js in Resources */,
+				64A0AD362A98170B00D30978 /* popup.css in Resources */,
+				64A0AD342A98170B00D30978 /* popup.html in Resources */,
+				64A0AD2C2A98170B00D30978 /* images in Resources */,
+				64A0AD2E2A98170B00D30978 /* manifest.json in Resources */,
+				64A0AD2A2A98170B00D30978 /* _locales in Resources */,
+				64A0AD322A98170B00D30978 /* content.js in Resources */,
+				64A0AD382A98170B00D30978 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A0ACE82A98170B00D30978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0AD232A98170B00D30978 /* ViewController.swift in Sources */,
+				64A0ACF02A98170B00D30978 /* AppDelegate.swift in Sources */,
+				64A0ACF22A98170B00D30978 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0ACFA2A98170B00D30978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0AD242A98170B00D30978 /* ViewController.swift in Sources */,
+				64A0AD012A98170B00D30978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0AD062A98170B00D30978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0AD272A98170B00D30978 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0AD102A98170B00D30978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0AD282A98170B00D30978 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64A0AD0D2A98170B00D30978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A0AD092A98170B00D30978 /* Luminance Shift Safari Extension (iOS) */;
+			targetProxy = 64A0AD0C2A98170B00D30978 /* PBXContainerItemProxy */;
+		};
+		64A0AD172A98170B00D30978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A0AD132A98170B00D30978 /* Luminance Shift Safari Extension (macOS) */;
+			targetProxy = 64A0AD162A98170B00D30978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64A0ACD62A98170A00D30978 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A0ACD72A98170A00D30978 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		64A0ACF32A98170B00D30978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A0ACF42A98170B00D30978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64A0ACF62A98170B00D30978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A0ACF72A98170B00D30978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64A0AD022A98170B00D30978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A0AD032A98170B00D30978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64A0AD392A98170B00D30978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64A0AD3A2A98170B00D30978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		64A0AD3C2A98170B00D30978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Luminance Shift Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Luminance-Shift-Safari.Extension";
+				PRODUCT_NAME = "Luminance Shift Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64A0AD3D2A98170B00D30978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Luminance Shift Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Luminance-Shift-Safari.Extension";
+				PRODUCT_NAME = "Luminance Shift Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64A0AD402A98170B00D30978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Luminance Shift Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Luminance-Shift-Safari";
+				PRODUCT_NAME = "Luminance Shift Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64A0AD412A98170B00D30978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Luminance Shift Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Luminance-Shift-Safari";
+				PRODUCT_NAME = "Luminance Shift Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64A0AD432A98170B00D30978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Luminance Shift Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Luminance Shift Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Luminance-Shift-Safari.Extension";
+				PRODUCT_NAME = "Luminance Shift Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64A0AD442A98170B00D30978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Luminance Shift Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Luminance Shift Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Luminance-Shift-Safari.Extension";
+				PRODUCT_NAME = "Luminance Shift Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		64A0AD472A98170B00D30978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Luminance Shift Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Luminance Shift Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Luminance-Shift-Safari";
+				PRODUCT_NAME = "Luminance Shift Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64A0AD482A98170B00D30978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Luminance Shift Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Luminance Shift Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Luminance-Shift-Safari";
+				PRODUCT_NAME = "Luminance Shift Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A0ACD32A98170A00D30978 /* Build configuration list for PBXProject "Luminance Shift Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A0AD392A98170B00D30978 /* Debug */,
+				64A0AD3A2A98170B00D30978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A0AD3B2A98170B00D30978 /* Build configuration list for PBXNativeTarget "Luminance Shift Safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A0AD3C2A98170B00D30978 /* Debug */,
+				64A0AD3D2A98170B00D30978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A0AD3F2A98170B00D30978 /* Build configuration list for PBXNativeTarget "Luminance Shift Safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A0AD402A98170B00D30978 /* Debug */,
+				64A0AD412A98170B00D30978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A0AD422A98170B00D30978 /* Build configuration list for PBXNativeTarget "Luminance Shift Safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A0AD432A98170B00D30978 /* Debug */,
+				64A0AD442A98170B00D30978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A0AD462A98170B00D30978 /* Build configuration list for PBXNativeTarget "Luminance Shift Safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A0AD472A98170B00D30978 /* Debug */,
+				64A0AD482A98170B00D30978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64A0ACD02A98170A00D30978 /* Project object */;
+}
