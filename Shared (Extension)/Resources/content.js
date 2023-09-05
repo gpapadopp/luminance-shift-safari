@@ -1,7 +1,7 @@
 function displayOverlay(){
     const readingOverlay = document.createElement("div")
     readingOverlay.id = "lss_reading_mode_overlay"
-    readingOverlay.style = "position: fixed; width: 100%; height: 100%; top: 0; left: 0; right:0; bottom: 0; background-color: rgba(255, 210, 124, 0.21); z-index: 2147483647;"
+    readingOverlay.style = "position: fixed; width: 100%; height: 100%; top: 0; left: 0; right:0; bottom: 0; background-color: rgba(255, 210, 124, 0.21); z-index: 2147483647; pointer-events: none;"
     document.body.appendChild(readingOverlay)
 }
 
