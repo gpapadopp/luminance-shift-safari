@@ -74,11 +74,11 @@ body {
 }
 
 input:checked + .slider {
-  background-color: #FF0000;
+  background-color: #FF9500;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #FF0000;
+  box-shadow: 0 0 1px #FF9500;
 }
 
 input:not(:checked) + .slider:before {

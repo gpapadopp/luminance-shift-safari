@@ -12,7 +12,7 @@
         "description": "Subtext for the Title"
     },
     "activate_reading_mode":{
-        "message": "Ενεργοποίηση Λειτουργία Ανάγνωσης",
+        "message": "Ενεργοποίηση Λειτουργίας Ανάγνωσης",
         "description": "Active Reading Mode Title"
     }
 }
