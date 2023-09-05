@@ -2,33 +2,33 @@
 
 ![icon](https://github.com/gpapadopp/luminance-shift-safari/assets/70651728/1ee8e425-e662-41d2-8dcd-bfb71795a6a0)
 
-Το **Luminance Shift Safari** είναι μια πρόσθετη επέκταση για τον Safari που βοηθάει στην εύκολη προσαρμογή της φωτεινότητας του περιηγητή σας για μια καλύτερη εμπειρία περιήγησης.
+**Luminance Shift Safari** is a Safari extension designed to make adjusting your browser's brightness for a better browsing experience a breeze.
 
-## Χαρακτηριστικά
+## Features
 
-- Προσαρμογή της φωτεινότητας του Safari με ένα κλικ.
-- Απλό και εύχρηστο περιβάλλον χρήστη.
-- Συμβατότητα με τις τελευταίες εκδόσεις του Safari.
+- One-click Safari brightness adjustment.
+- Simple and user-friendly interface.
+- Compatibility with the latest Safari versions.
 
-## Πώς να εγκαταστήσετε
+## How to Install
 
-1. Κατεβάστε το πρότζεκτ από το GitHub.
-2. Ανοίξτε τον Safari.
-3. Πηγαίνετε στο `Προτιμήσεις > Επεκτάσεις`.
-4. Ενεργοποιήστε την επέκταση "Luminance Shift Safari" ενεργοποιώντας το κουμπί δίπλα από αυτήν.
+1. Download the project from GitHub.
+2. Open Safari.
+3. Go to `Preferences > Extensions`.
+4. Enable the "Luminance Shift Safari" extension by toggling the switch next to it.
 
-## Συνεισφορά
+## Contribution
 
-Εάν θέλετε να συνεισφέρετε σε αυτό το έργο, παρακαλούμε να ανοίξετε ένα issue ή να υποβάλετε ένα pull request. Είμαστε ανοικτοί σε προτάσεις για βελτιώσεις και νέα χαρακτηριστικά.
+If you'd like to contribute to this project, please open an issue or submit a pull request. We welcome suggestions for improvements and new features.
 
-## Άδεια
+## License
 
-Το "Luminance Shift Safari" διανέμεται υπό την άδεια [MIT](LICENSE). Ανατρέξτε στο αρχείο άδειας για περισσότερες πληροφορίες.
+"Luminance Shift Safari" is distributed under the [MIT License](LICENSE). Refer to the license file for more information.
 
-## Επιλογή Χρωμάτων
+## Color Selection
 
-Η βασική χρωματική παλέτα που χρησιμοποιήθηκε στο "Luminance Shift Safari" επιλέχθηκε με προσοχή από τον [nicktheodoridisiOS](https://github.com/nicktheodoridisiOS).
+The primary color palette used in "Luminance Shift Safari" was carefully chosen by [nicktheodoridiosiOS](https://github.com/nicktheodoridiosiOS).
 
 ---
 
-Αυτό το README είναι μια βασική περιγραφή. Μπορείτε να προσθέσετε περισσότερες λεπτομέρειες, οδηγίες εγκατάστασης, οδηγίες χρήσης και άλλες πληροφορίες που θεωρείτε σημαντικές για το έργο σας.
+This README provides a basic overview. You can add more details, installation instructions, usage guidelines, and other information you consider important for your project.
