@@ -4,7 +4,15 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is Luminance Shift Safari. You should tell us what your extension does here.",
+        "message": "This is Luminance Shift Safari. It's a Safari extension you can trust for your browser's Reading Mode!",
         "description": "Description of what the extension does."
+    },
+    "subtitle_text": {
+        "message": "The world in a new dimension",
+        "description": "Subtext for the Title"
+    },
+    "activate_reading_mode":{
+        "message": "Activate Reading Mode",
+        "description": "Active Reading Mode Title"
     }
 }

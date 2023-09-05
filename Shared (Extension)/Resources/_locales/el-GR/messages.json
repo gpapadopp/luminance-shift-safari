@@ -1,10 +1,18 @@
 {
     "extension_name": {
-        "message": "Γεία σου",
+        "message": "Luminance Shift Safari",
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is Luminance Shift Safari. You should tell us what your extension does here.",
+        "message": "Αυτό είναι το Luminance Shift Safari. Eίναι μια επέκταση για το Safari, που μπορείτε να εμπιστευτείτε για τη λειτουργία ανάγνωσης του φυλλομετρητή σας!",
         "description": "Description of what the extension does."
+    },
+    "subtitle_text": {
+        "message": "Ο κόσμος σε μια νέα διάσταση",
+        "description": "Subtext for the Title"
+    },
+    "activate_reading_mode":{
+        "message": "Ενεργοποίηση Λειτουργία Ανάγνωσης",
+        "description": "Active Reading Mode Title"
     }
 }
