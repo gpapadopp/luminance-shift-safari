@@ -1,10 +1,9 @@
-function readTranslations(){
-    const userLanguage = navigator.language;
+function readTranslations(userLanguage){
     const filePath = "_locales/" + userLanguage + "/messages.json"
     fetch(filePath)
       .then((response) => {
         if (!response.ok) {
-          console.log("Error !")
+            readTranslations('en-US')
         }
         return response.json();
       })
@@ -12,7 +11,7 @@ function readTranslations(){
           translateContent(jsonData)
       })
       .catch((error) => {
-        console.error('Fetch error:', error);
+          readTranslations('en-US')
       });
 }
 
@@ -40,7 +39,7 @@ function checkSwitchChecked(){
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  readTranslations();
+  readTranslations(navigator.language);
   checkSwitchChecked()
 });
 
