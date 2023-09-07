@@ -33,7 +33,6 @@ function checkSwitchChecked(){
                     } else {
                         toggleElement.checked = false;
                     }
-                console.log(response)
             });
         });
 }
