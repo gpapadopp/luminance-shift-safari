@@ -1,6 +1,8 @@
 # Luminance Shift Safari
 
-![icon](https://github.com/gpapadopp/luminance-shift-safari/assets/70651728/1ee8e425-e662-41d2-8dcd-bfb71795a6a0)
+
+https://github.com/gpapadopp/luminance-shift-safari/assets/70651728/acb625fe-cb5c-4816-b306-2a18bb256ea9
+
 
 **Luminance Shift Safari** is a Safari extension designed to make adjusting your browser's brightness for a better browsing experience a breeze.
 
