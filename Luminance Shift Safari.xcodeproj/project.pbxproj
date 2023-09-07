@@ -200,7 +200,6 @@
 		64A0ACDF2A98170B00D30978 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				64F6F9452AA88C6300F5C95B /* assets */,
 				64A0ACE02A98170B00D30978 /* _locales */,
 				64A0ACE12A98170B00D30978 /* images */,
 				64A0ACE22A98170B00D30978 /* manifest.json */,
@@ -261,13 +260,6 @@
 				64A0AD1A2A98170B00D30978 /* Luminance Shift Safari.entitlements */,
 			);
 			path = "macOS (Extension)";
-			sourceTree = "<group>";
-		};
-		64F6F9452AA88C6300F5C95B /* assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
