@@ -26,11 +26,3 @@ If you'd like to contribute to this project, please open an issue or submit a pu
 ## License
 
 "Luminance Shift Safari" is distributed under the [MIT License](LICENSE). Refer to the license file for more information.
-
-## Color Selection
-
-The primary color palette used in "Luminance Shift Safari" was carefully chosen by [nicktheodoridiosiOS](https://github.com/nicktheodoridiosiOS).
-
----
-
-This README provides a basic overview. You can add more details, installation instructions, usage guidelines, and other information you consider important for your project.
